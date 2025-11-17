@@ -5,8 +5,8 @@ from ta.momentum import RSIIndicator
 from ta.trend import MACD
 import time
 
-API_KEY = "YOUR_API_KEY"
-API_SECRET = "YOUR_SECRET_KEY"
+API_KEY = "rZKNjMYCp9fET4715CQ3D5LOjrUzyEjCB1Gw8RSXD3qiRBaFmMzkUHbFe9p3BOgN"
+API_SECRET = "SDhQluHzs5OlIFurMRO1nUJBgJ11AYBMkcEq7vkkCLMvm2AO2vylk88zf29Q9JdY"
 
 client = UMFutures(key=API_KEY, secret=API_SECRET)
 
@@ -61,3 +61,4 @@ def run_bot():
             time.sleep(10)
 
 run_bot()
+
